@@ -25,7 +25,7 @@ class Test_even(unittest.TestCase):
         def test_1(self):
                 x=3
                 result = even(x)
-                self.assertEqual(result,0)
+                self.assertEqual(result,1)
         def test_2(self):
                 x=4
                 result = even(x)
@@ -35,9 +35,9 @@ class Test_even(unittest.TestCase):
                 result = even(x)
                 self.assertEqual(result,1)
         def test_4(self):
-                x=24
+                x=23
                 result = even(x)
-                self.assertEqual(result,1)
+                self.assertEqual(result,0)
 
 if __name__ == '__main__':
     unittest.main()
