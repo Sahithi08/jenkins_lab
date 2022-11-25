@@ -22,15 +22,15 @@ class Test_even(unittest.TestCase):
 #                 x=2
 #                 result = even(x)
 #                 self.assertEqual(result,1)
-                x=3
-                result = even(x)
-                self.assertEqual(result,0)
+#                 x=3
+#                 result = even(x)
+#                 self.assertEqual(result,0)
 #                 x=4
 #                 result = even(x)
 #                 self.assertEqual(result,1)
-#                 x=15
-#                 result = even(x)
-#                 self.assertEqual(result,1)
+                x=15
+                result = even(x)
+                self.assertEqual(result,1)
 #                 x=24
 #                 result = even(x)
 #                 self.assertEqual(result,1)
