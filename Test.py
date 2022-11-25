@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 import unittest
 
 # from Prog1 import add
@@ -13,8 +14,8 @@ from prog2 import even
 #         y=10
 #         result = add(x,y)
 #         self.assertEqual(result, 15)
-
-    def test_even(self):
+class Test_even(unittest.TestCase):
+        def test_even(self):
         """
         Test case to check if the number is even.
         """
