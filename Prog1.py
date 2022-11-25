@@ -2,4 +2,4 @@
 # Source code for summation of two numbers
 
 def add(x,y):
-    return add(x,y)
+    return x + y
