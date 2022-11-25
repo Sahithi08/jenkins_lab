@@ -22,19 +22,19 @@ class Test_even(unittest.TestCase):
                 x=2
                 result = even(x)
                 self.assertEqual(result,1)
-        def test_even(self):
+        def test_1(self):
                 x=3
                 result = even(x)
                 self.assertEqual(result,0)
-        def test_even(self):
+        def test_2(self):
                 x=4
                 result = even(x)
                 self.assertEqual(result,1)
-        def test_even(self):
+        def test_3(self):
                 x=15
                 result = even(x)
                 self.assertEqual(result,1)
-        def test_even(self):
+        def test_4(self):
                 x=24
                 result = even(x)
                 self.assertEqual(result,1)
