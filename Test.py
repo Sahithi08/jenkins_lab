@@ -16,9 +16,9 @@ from prog2 import even
 #         self.assertEqual(result, 15)
 class Test_even(unittest.TestCase):
         def test_even(self):
-        """
-        Test case to check if the number is even.
-        """
+#         """
+#         Test case to check if the number is even.
+#         """
         x=2
         result = even(x)
         self.assertEqual(result,1)
