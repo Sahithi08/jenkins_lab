@@ -4,7 +4,7 @@ import unittest
 # from Prog1 import add
 from prog2 import even
 
-class TestSum(unittest.TestCase):
+# class TestSum(unittest.TestCase):
 #     def test_add(self):
 #         """
 #         Test case to add two numbers
