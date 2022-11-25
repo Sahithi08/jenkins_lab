@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 
-def sub(x, y):
-    return x-y
+def even(x):
+    if (x%2 == 0)
+        return 1
+    return 0
 
 
 
