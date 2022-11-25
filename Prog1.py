@@ -1,5 +1,4 @@
-# !/usr/bin/python3
-# Source code for summation of two numbers
+#!/usr/bin/python3
 
-def add(x,y):
+def add(x, y):
     return x + y
