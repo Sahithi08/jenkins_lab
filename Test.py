@@ -19,12 +19,12 @@ class Test_even(unittest.TestCase):
 #         """
 #         Test case to check if the number is even.
 #         """
-                x=2
-                result = even(x)
-                self.assertEqual(result,1)
-#                 x=3
+#                 x=2
 #                 result = even(x)
-#                 self.assertEqual(result,0)
+#                 self.assertEqual(result,1)
+                x=3
+                result = even(x)
+                self.assertEqual(result,0)
 #                 x=4
 #                 result = even(x)
 #                 self.assertEqual(result,1)
