@@ -28,12 +28,12 @@ class Test_even(unittest.TestCase):
 #                 x=4
 #                 result = even(x)
 #                 self.assertEqual(result,1)
-                x=15
-                result = even(x)
-                self.assertEqual(result,1)
-#                 x=24
+#                 x=15
 #                 result = even(x)
 #                 self.assertEqual(result,1)
+                x=24
+                result = even(x)
+                self.assertEqual(result,1)
 
 if __name__ == '__main__':
     unittest.main()
