@@ -15,22 +15,26 @@ from prog2 import even
 #         result = add(x,y)
 #         self.assertEqual(result, 15)
 class Test_even(unittest.TestCase):
-        def test_even(self):
 #         """
 #         Test case to check if the number is even.
 #         """
+        def test_even(self):
                 x=2
                 result = even(x)
                 self.assertEqual(result,1)
+        def test_even(self):
                 x=3
                 result = even(x)
                 self.assertEqual(result,0)
+        def test_even(self):
                 x=4
                 result = even(x)
                 self.assertEqual(result,1)
+        def test_even(self):
                 x=15
                 result = even(x)
                 self.assertEqual(result,1)
+        def test_even(self):
                 x=24
                 result = even(x)
                 self.assertEqual(result,1)
